@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>zen1th Blog</title>
+  
+  
+  <link href="https://blog.zen1th.vip/atom.xml" rel="self"/>
+  
+  <link href="https://blog.zen1th.vip/"/>
+  <updated>2025-08-08T03:27:09.724Z</updated>
+  <id>https://blog.zen1th.vip/</id>
+  
+  <author>
+    <name>zen1th</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>mac完全配置</title>
+    <link href="https://blog.zen1th.vip/posts/10003/"/>
+    <id>https://blog.zen1th.vip/posts/10003/</id>
+    <published>2025-07-30T11:10:25.000Z</published>
+    <updated>2025-08-08T03:27:09.724Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;系统设置&quot;&gt;&lt;a href=&quot;#系统设置&quot; class=&quot;headerlink&quot; title=&quot;系统设置&quot;&gt;&lt;/a&gt;系统设置&lt;/h1&gt;&lt;h2 id=&quot;访达&quot;&gt;&lt;a href=&quot;#访达&quot; class=&quot;headerlink&quot; title=&quot;访达&quot;&gt;&lt;/a&gt;访达&lt;/h</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>RHCE9学习</title>
+    <link href="https://blog.zen1th.vip/posts/10001/"/>
+    <id>https://blog.zen1th.vip/posts/10001/</id>
+    <published>2025-07-29T07:28:36.000Z</published>
+    <updated>2025-08-07T13:58:36.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;hr&gt;
+&lt;h1 id=&quot;RHCE-9-学习笔记：核心系统管理&quot;&gt;&lt;a href=&quot;#RHCE-9-学习笔记：核心系统管理&quot; class=&quot;headerlink&quot; title=&quot;RHCE 9 学习笔记：核心系统管理&quot;&gt;&lt;/a&gt;RHCE 9 学习笔记：核心系统管理&lt;/h1&gt;&lt;p&gt;本</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>git初始化</title>
+    <link href="https://blog.zen1th.vip/posts/10002/"/>
+    <id>https://blog.zen1th.vip/posts/10002/</id>
+    <published>2025-07-26T16:34:32.000Z</published>
+    <updated>2025-07-26T16:37:58.026Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;安装homebrew&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://blog.zen1th.vip/posts/10002/"/>
+    <id>https://blog.zen1th.vip/posts/10002/</id>
+    <published>2025-07-15T10:18:43.669Z</published>
+    <updated>2025-07-15T10:18:43.669Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>

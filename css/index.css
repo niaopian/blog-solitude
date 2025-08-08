@@ -1755,7 +1755,7 @@ body {
   background: var(--efu-background);
   color: var(--efu-fontcolor);
   font-size: 16px;
-  font-family: PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif;
+  font-family: JinBuTi, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif;
   line-height: 2;
   -webkit-tap-highlight-color: transparent;
   margin: 0;
@@ -2087,8 +2087,12 @@ i.solitude {
   }
 }
 .layout#content-inner {
+  position: relative;
   max-width: 1400px;
   flex-grow: 1;
+}
+.post .layout#content-inner {
+  margin-top: 16px;
 }
 .layout.hide-aside > div:first-child {
   width: 100%;
@@ -2697,7 +2701,6 @@ span.tags-punctuation i {
   margin-left: 2px;
 }
 #card-toc:hover .toc-content .toc-link:not(.active) span {
-  filter: blur(0);
   opacity: 1;
 }
 @media screen and (min-width: 901px) {
@@ -2779,7 +2782,6 @@ span.tags-punctuation i {
 #card-toc .toc-content .toc-link:not(.active) span {
   opacity: 0.6;
   cursor: pointer;
-  filter: blur(1px);
   transition: 0.3s;
 }
 .sticky_layout {
@@ -3289,36 +3291,6 @@ span.tags-punctuation i {
   height: 100%;
   content: '';
   z-index: -1;
-}
-#footer div#st-footer-bar {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 16px;
-}
-#footer div#st-footer-bar a.footer-bar-link {
-  padding: 4px 16px;
-  background: var(--efu-secondbg);
-  border-radius: 20px;
-  margin-top: 8px;
-  font-size: 14px;
-  cursor: pointer;
-  border: var(--style-border-always);
-}
-#footer div#st-footer-bar a.footer-bar-link:hover {
-  background: var(--efu-main);
-  color: var(--efu-white);
-  transform: scale(1.1);
-  border-color: var(--efu-main);
-}
-#footer div#st-footer-bar .footer-logo {
-  font-size: 24px;
-}
-#footer div#st-footer-bar .footer-bar-description {
-  color: var(--efu-secondtext);
-  font-weight: 700;
-  padding: 0 0.5rem;
-  text-align: center;
 }
 #footer #footer_deal {
   justify-content: center;
@@ -4306,11 +4278,6 @@ span.tags-punctuation i {
     position: absolute;
     overflow: hidden;
     left: 0;
-  }
-}
-@media screen and (max-width: 768px) {
-  #nav-console {
-    display: none;
   }
 }
 span.tags-punctuation {
@@ -5815,7 +5782,7 @@ span.tagsPageCount {
   padding: 0.5rem;
   text-align: center;
   font-size: 14px;
-  font-family: PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif;
+  font-family: JinBuTi, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif;
 }
 @media screen and (max-width: 768px) {
   #body-wrap.error #error-wrap .error-content .error-info {
@@ -7343,7 +7310,7 @@ body[data-type=music] #nav-music {
   margin-right: auto;
   width: 100%;
   font-size: 36px;
-  font-family: PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif;
+  font-family: JinBuTi, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif;
   line-height: 1.06;
   letter-spacing: -0.02em;
   color: var(--efu-fontcolor);
@@ -8829,20 +8796,6 @@ div#banners .bannerText {
     height: 15rem;
   }
 }
-.post #page-header.post-bg::after {
-  position: absolute;
-  content: '';
-  width: 100%;
-  height: 32px;
-  background: var(--efu-background);
-  bottom: 0;
-  border-radius: 16px 16px 0 0;
-}
-@media screen and (max-width: 768px) {
-  .post #page-header.post-bg::after {
-    display: none;
-  }
-}
 .post .post-bg #post-cover {
   width: 100%;
   height: 100%;
@@ -9887,7 +9840,6 @@ div#banners .bannerText {
   --efu-yellow-op: rgba(255,201,62,0.188);
   --efu-orange: #ff953e;
   --efu-fontcolor: #f7f7fa;
-  --efu-background: #18171d;
   --efu-reverse: #fff;
   --efu-maskbg: rgba(0,0,0,0.6);
   --efu-maskbgdeep: rgba(0,0,0,0.85);
@@ -9917,6 +9869,7 @@ div#banners .bannerText {
   --style-border-forever: 2px solid var(--efu-lighttext);
   --efu-hl-bg: #1c1e1e;
   --efu-hltools-bg: #454a50;
+  --efu-background: #18171d;
 }
 [data-theme=light] {
   --efu-theme: #425aef;
@@ -9933,7 +9886,6 @@ div#banners .bannerText {
   --efu-orange: #e38100;
   --efu-purple: #7a60d2;
   --efu-fontcolor: #363636;
-  --efu-background: #f7f9fe;
   --efu-reverse: #000;
   --efu-maskbg: rgba(255,255,255,0.6);
   --efu-maskbgdeep: rgba(255,255,255,0.85);
@@ -9964,6 +9916,7 @@ div#banners .bannerText {
   --efu-navbg: var(--efu-theme-op);
   --efu-hl-bg: #fff;
   --efu-hltools-bg: #e7e7e7;
+  --efu-background: #f7f9fe;
 }
 @media screen and (max-width: 768px) {
   :root {
